@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Gugi');
+@import url('fontello/css/fontello.css');
+@import url('reset.css');
+
+.clear-button{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  font-size:8px;
+  word-spacing: 100vh;
+  font-weight:600;
+}
+.step-indicator{
+	border: solid 1px #a5a0a0;
+	width:60px;
+	height:20px;
+	margin-right:1px;
+	padding-right:0px;
+	margin-bottom:2px;
+	box-sizing:border-box;
+  box-shadow: 0 2px 2px #222;
+}
+
+h1{
+  font-size:23px;
+  font-weight:700;
+  margin-right:3px;
+}
+
+#loadBankButton{
+  width:100px;
+  margin-right:auto;
+}
+.pattern-selector{
+  border-top:1px solid #d1d1d1;
+  width:100%;
+  display:flex;
+}
+.step-indicator-main{
+  margin-left:95px;
+  transform: translate(2px,0px)
+}
+.step-indicator-filled{
+	background:#212121;
+  border:rgb(77, 77, 77) 1px outset;
+  border-radius:3px;
+  box-shadow: 0 2px 2px #222;
+
+}
+
+body{
+  background:#242424;
+  font-family:'Oswald';
+  color:#d1d1d1;
+  text-transform: uppercase;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+div{
+  display:flex;
+  align-items:center;
+}
+section{
+  width:1100px;
+  margin:auto;
+  background:#333333;
+  border-radius:2px;
+}
+button{
+  width:50px;
+  height:50px;
+  box-sizing:border-box;
+  border:rgb(77, 77, 77) 2px outset;
+  border-radius:6px;
+  box-shadow: 0 2px 2px #222;
+  margin:6px;
+  cursor:pointer;
+}
+.top-panel{
+  margin:20px;
+  border-bottom:1px solid #d1d1d1;
+  display:flex;
+}
+.logo{
+  margin-right:auto;
+}
+
+.label{
+  width:80px;
+  height:50px;
+  box-sizing:border-box;
+  text-align:center;
+  border:none;
+  background:#2c2c2c;
+  /*border:rgb(110, 110, 110) 2px outset;*/
+  margin-left:10px;
+  /*-webkit-box-shadow: -6px -5px 83px -14px rgba(255,255,255,1);
+  -moz-box-shadow: -6px -5px 83px -14px rgba(255,255,255,1);
+  box-shadow: -6px -5px 83px -14px rgba(255,255,255,1);*/
+  padding:5px;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pattern-selector-cont{
+  background:#222222;
+}
+ .pattern-selector-cont button{
+   font-family:'Oswald';
+ }
+.step-indicator-cont{
+  margin-left:95px;
+  box-sizing:border-box;
+  border:solid 1px rgb(117, 117, 117);
+  width:981px;
+}
+.step-indicator-section-one{
+  width:25%;
+}
+.step-indicator-section-two{
+  width:25%;
+}
+.step-indicator-section-one div{
+  display:flex;
+  align-content: center;
+  justify-content:center;
+  background:#2c2c2c;
+  width:25%;
+  box-sizing:border-box;
+  text-align:center;
+  padding:3px 0px 3px 0px;
+}
+.step-indicator-section-two div{
+  display:flex;
+  align-content: center;
+  justify-content:center;
+  background:#5e5d5d;
+  width:25%;
+  box-sizing:border-box;
+  text-align:center;
+  padding:3px 0px 3px 0px;
+}
+button:focus{
+  outline:none;
+}
+.on{
+  background: #fff7a8;
+}
+.step-button-darkgray{
+  background:#5e5d5d
+}
+.step-button-lightgray{
+  background:#979797
+}
+.step-button-darkgray.on,.step-button-lightgray.on{
+  background: #fff7a8
+}
+.volume-button{
+  width:25px;
+  height:25px;
+  font-family:'Oswald';
+}
+.step-indicator-step{
+  box-shadow: 0 2px 2px #222;
+}
+.bottom-container{
+  margin:20px;
+}
+
+.tempo-indicator{
+  width:100px;
+  border:rgb(77, 77, 77) 2px outset;
+  border-radius:6px;
+  box-shadow: 0 2px 2px #222;
+  height:50px;
+  color:pink;
+  background:#212121;
+  color:#f44242;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:20px;
+  height:50px;
+  font-family:'Gugi'
+}
+.play-stop-button{
+  margin-left:auto;
+  width:100px;
+}
+.tempo-header{
+  margin-left:6px;
+  font-size:18px;
+}
+
+.bottom-panel{
+  margin-left: 35px;
+  padding:30px;
+}

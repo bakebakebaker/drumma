@@ -1,0 +1,4 @@
+
+.icon-play:before { content: '\e800'; } /* '' */
+.icon-volume-up:before { content: '\e801'; } /* '' */
+.icon-stop:before { content: '\e802'; } /* '' */
